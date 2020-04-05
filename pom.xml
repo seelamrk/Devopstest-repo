@@ -37,8 +37,8 @@
 </dependency>
 </dependencies>
 <scm>
-<connection>scm:svn:http://192.168.33.11:8081/subversion/</connection>
-<developerConnection>scm:svn:http://192.168.33.11:8081/subversion/</developerConnection>
+<connection>scm:git:https://github.com/seelamrk/Devopstest-repo/</connection>
+<developerConnection>scm:git:https://github.com/seelamrk/Devopstest-repo/</developerConnection>
 </scm>
 <repositories>
     <repository>
@@ -49,11 +49,11 @@
 <distributionManagement>
     <snapshotRepository>
       <id>maven-snapshots</id>
-      <url>http://localhost:8081/repository/maven-snapshots/</url>
+      <url>http://192.168.33.20:8081//repository/maven-snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>maven-releases</id>
-      <url>http://localhost:8081/repository/maven-releases/</url>
+      <url>http://192.168.33.20:8081//repository/maven-releases/</url>
     </repository>
   </distributionManagement>
   <!-- download plugins from this repo -->
@@ -61,7 +61,7 @@
  <pluginRepository>
   <id>aven-public</id>
   <name>aven-public</name>
-  <url>http://localhost:8081/repository/maven-public/</url>
+  <url>http://192.168.33.20:8081//repository/maven-public/</url>
   <releases>
    <enabled>true</enabled>
   </releases>
